@@ -1,0 +1,192 @@
+body {
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.left {
+    height: 70px; 
+    width: 430px; 
+    background-repeat: no-repeat;
+    transform: scale(1.125);
+    margin-right: 40px;  
+}
+.Iphone{
+    position: absolute;
+    margin-top: -207px;
+    height: 500px;
+    left: 355px;
+ }
+.phone{
+    position: absolute;
+    margin-top: -190px;
+    height: 430px;
+    width: 210px;
+    left: 472px;
+}
+.right {
+    margin-top: -5px; 
+    margin-left: 330px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    font-family: -apple-system;
+    padding: 40px;
+    margin: 20px;
+}
+
+.logo{
+    padding: 0px 70px 0px 70px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+}
+
+input:focus,
+input:active {
+    border: 1px solid rgba(38, 38, 38, 0.4);
+}
+
+.login-button {
+    background-color: rgba(0, 149, 246, 0.3);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.or-divider {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divider-line {
+    background-color: rgb(219, 219, 219);
+    height: 1px;
+    width: 140px;
+}
+
+.or-text {
+    font-weight: 600;
+    color: gray;
+    padding: 0px 20px 0px 20px;
+}
+
+.facebook-login {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(56, 81, 133);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.facebook-login span:first-child {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    display: inline-block;
+    font-size: 100%;
+    margin-right: 8px;
+    padding: 0;
+    position: initial;
+    top: 3px;
+    vertical-align: baseline;
+}
+
+.forgot-password {
+    color: rgb(0, 55, 107);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.signup-link {
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.signup-link span {
+    color: rgba(0, 149, 246, 1);  
+    font-weight: 600;      
+}
+
+.get-app {
+    margin-left: 180px;
+    position: initial;
+    margin-top: -10px;
+    margin-left: 130px;
+}
+
+.app-icons {
+    position: initial;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.play{
+    position:inherit; 
+    width: 180px; 
+    margin-top: 60px;
+
+}
+.micro{
+    position: inherit;
+    width: 150px; 
+    margin-top: 85px;
+}
+
+.footer {
+    height: 10%;
+    margin-top: -100px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar span {
+    color: gray;
+    padding: 10px;
+    margin-top: 90px;
+    font-size: 12px;
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
